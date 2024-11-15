@@ -120,7 +120,7 @@ class Program
                 }
                 break;
             case "4":
-                string filePath = "C:\\Users\\Nanana\\source\\repos\\lab4\\lab4\\file.txt";
+                string filePath = "file.txt";
                 HashSet<char> uniqueLetters = ListOperations.CountLetters(filePath);
 
                 Console.WriteLine($"Количество букв в тексте: {uniqueLetters.Count}");
